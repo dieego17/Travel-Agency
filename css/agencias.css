@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Quick;
+    src: url(../assets/fonts/quicksand_light.ttf);
+}
+@font-face {
+    font-family: Sbold;
+    src: url(../assets/fonts/quicksand_semibold.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+.container_main{
+    margin: 0 auto;
+    width: 1080px;
+    max-width: 1300px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+/* LOCALIZAR OFICINAS */
+.section{
+    margin: 0px 25px 0px 0px;
+}
+.section__form{
+    margin: 0px 0px 30px 0px;
+}
+.section__h1{
+    border-left: 3px solid #0f7404;
+    padding: 0px 20px;
+    font-family: Sbold;
+}
+.section__input{
+    padding: 10px 135px;
+    border: 1px solid gray;
+    margin: 10px 0px 20px 0px;
+    font-family: Quick;
+    outline: 0;
+}
+.section__input:focus{
+    border: 1px solid #0f7404;
+    font-weight: bold;
+}
+.section__input:hover{
+    border: 1px solid #0f7404;
+    outline: 0;
+    color: #0f7404;
+    font-family: Sbold;
+}
+.section__input::placeholder{
+    font-family: Quick;
+    color: black;
+}
+.section__div{
+    margin: 40px 0px;
+}
+.section__boton{
+    border: 1px solid #0f7404;
+    padding: 10px 115px;
+    text-decoration: none;
+    color: white;
+    background-color: #0f7404;
+    font-family: Quick;
+    margin: 20px 0px;
+}
+.section__boton:hover{
+    background-color: #8caa89;
+    border: 1px solid #8caa89;
+}
+/* IFRAME */
+.aside{
+    margin: 0px 0px 20px 0px;
+}
+.aside__iframe{
+    width: 900px;
+    height: 700px;
+}
+.boton{
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.37);
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.boton__img{
+    width: 30px;
+}

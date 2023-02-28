@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Quick;
+    src: url(../assets/fonts/quicksand_light.ttf);
+}
+@font-face {
+    font-family: Sbold;
+    src: url(../assets/fonts/quicksand_semibold.ttf);
+}
+.footer{
+    margin: 0 auto;
+    background-color: #c8c4c4;
+    flex-wrap: wrap;
+}
+
+/* LISTAS */
+.listas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listas__div{
+    margin: 0px 40px;
+}
+.listas__p{
+    color: #0f7404;
+    text-align: center;
+    padding: 0px 0px 0px 40px;
+    font-size: 1.3rem;
+    font-family: Sbold;
+}
+.ul__li{
+    list-style-type: none;
+    padding: 5px 0px;
+    text-align: center;
+}
+.ul__link{
+    text-decoration: none;
+    color: black;
+    font-family: Quick;
+}
+.ul__link:hover{
+    color: #0f7404;
+}
+
+/* TEXTO Y LOGO */
+.footer__p{
+    font-family: Sbold;
+}
+.footer__2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.footer__img{
+    width: 30px;
+}

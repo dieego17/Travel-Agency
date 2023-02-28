@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cuenta - Rubio Viajes®</title>
+
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/registrarse.css">
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <div class="container__menu">
+        <header class="header">
+            <!-- ENCABEZADO -->
+            <div class="encabezado">
+                <a href="../index.html"><img class="img__logo" src="../assets/images/logo.jpg" alt=""></a>
+                <div class="encabezado__derch">
+                    <a id="menu" class="encabezado__link" href="#">925 13 20 40</a>
+                    <a class="encabezado__link encabezado__link--borde" href="../pages/agencias.html">Agencias de Viajes</a>
+                    <a class="encabezado__cuenta" href="../pages/formulario.html"><img class="encabezado__cuenta--img" src="../assets/images/outline_account_circle_white_24dp.png" alt=""></a>
+                    <a class="encabezado__cuenta encabezado__cuenta--texto" href="../pages/formulario.html">Mi Cuenta</a>
+                </div>
+            </div>
+            <a class="boton" href="#menu"><img class="boton__img" src="../assets/images/arrow_upward_filo_wght400_grado_opsz48.png" alt=""></a>
+            <!-- MENÚ -->
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__lista"><a class="nav__link" href="../pages/hoteles.html">Hoteles</a></li>
+                    <li class="nav__lista"><a class="nav__link" href="../pages/vuelos.html">Vuelos</a></li>
+                    <li class="nav__lista"><a class="nav__link" href="../pages/vuelo_hotel.html">Vuelo + hotel</a></li>
+                    <li class="nav__lista"><a class="nav__link" href="#">Cruceros</a></li>
+                    <li class="nav__lista"><a class="nav__link" href="#">Trenes</a></li>
+                    <li class="nav__lista"><a class="nav__link" href="#">Ofertas</a></li>
+                    <li class="nav__lista"><a class="nav__link" href="#">Parques temáticos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="main">
+        <section class="section">
+            <h1 class="section__h1">CREAR NUEVA CUENTA</h1>
+            <h3 class="section__h3">Accede a Viajes y a todos los servicios del Rubio Viajes.</h3>
+        </section>
+        <div class="container__form">
+            <!-- TEXTO DERECHA DE LA PÁGINA -->
+            <section class="section__text">
+                <h2 class="section__h2">TODAS ESTAS VENTAJAS Y MUCHO MÁS.</h2>
+                <article class="article__derecha">
+                    <h4 class="article__h3">Mejoramos tu experiencia de compra.</h4>
+                    <p class="article__texto">Guardaremos aquellos datos que desees para hacer tus reservas más ágiles. Así no tendrás que rellenar una y otra vez formularios cuando viajes con nosotros.</p>
+                </article>
+                <article class="article__derecha">
+                    <h4 class="article__h3">Grandes ideas en tu bandeja de entrada.</h4>
+                    <p class="article__texto">Si quieres, te enviaremos grandes ideas para tus próximos viajes, los mejores destinos y excelentes ofertas.</p>
+                </article>
+                <article class="article__derecha">
+                    <h4 class="article__h3">Atención y servicio personalizado.</h4>
+                    <p class="article__texto">Estamos disponibles para ti todos los días del año de 09h00 a 21h00. Y cuando estés de viaje, podrás hablar con nosotros a cualquier hora en caso de que tengas alguna necesidad o problema.</p>
+                </article>
+                <article class="article__derecha">
+                    <h4 class="article__h3">Información de primera mano.</h4>
+                    <p class="article__texto">Todos los datos sobre tus viajes en un punto único de información, facilitándote la vida para que simplemente te ocupes de disfrutar.</p>
+                </article>
+            </section>
+            <!-- FORMULARIO -->
+            <aside class="aside">
+                <form class="aside__form" method="" action="">
+                    <p class="aside__p">DATOS PERSONALES</p>
+                    <div class="aside__div">
+                        <input class="aside__input" type="text" name="nombre" id="nombre" placeholder="NOMBRE*">
+                    </div>
+                    <div class="aside__div">
+                        <input class="aside__input" type="text" name="apellidos" id="apellidos" placeholder="APELLIDOS*">
+                    </div>
+                    <div class="aside__div aside__div--tele">
+                        <select class="aside__select--tele" name="telefono" id="telefono">
+                            <option class="aside__num" value="Prefijo" selected disabled>+</option>
+                            <option class="aside__num" value="+34">(+34)</option>
+                            <option class="aside__num" value="+44">(+44)</option>
+                            <option class="aside__num" value="+49">(+49)</option>
+                            <option class="aside__num" value="+33">(+33)</option>
+                        </select>
+                        <div class="telefono__div">
+                            <input class="aside__input2" type="tel" name="tel" id="tel" placeholder="TELÉFONO*">
+                        </div>
+                    </div>
+                    <div class="aside__div">
+                        <select class="aside__select" name="nacionalidad" id="nacionalidad">
+                            <option class="aside__option" value="País" selected disabled>PAÍS</option>
+                            <option class="aside__option" value="España">España</option>
+                            <option class="aside__option" value="RUnido">Reino Unido</option>
+                            <option class="aside__option" value="Alemania">Alemania</option>
+                            <option class="aside__option" value="Francia">Francia</option>
+                        </select>
+                    </div>
+                    <div class="aside__div">
+                        <input class="aside__input" type="email" name="email" id="email" placeholder="EMAIL*">
+                    </div>
+                    <div class="aside__div">
+                        <input class="aside__input" type="email" name="confirm_email" id="confirm_email" placeholder="CONFIRMA EMAIL*">
+                    </div>
+                    <div class="aside__div">
+                        <input class="aside__input" type="password" name="password" id="password" placeholder="CONTRASEÑA*">
+                    </div>
+                    <div class="aside__div">
+                        <input class="aside__input" type="password" name="confirm_password" id="confirm_password" placeholder="CONFIRMA CONTRASEÑA*">
+                    </div>
+                </form>
+                <article class="article">
+                    <p class="article__p">Autorizo el uso de mis datos para todos los fines detallados <br> en la <a class="article__link" href="#">política de privacidad</a> salvo
+                    en aquellos supuestos que nos indique <br> lo contrario marcando la casilla correspondiente:</p>
+                </article>
+                <article class="article">
+                    <p class="article__p3">¿Estás interesado en que Rubio Viajes, S.A. utilice tus datos <br> para enviarte comunicaciones sobre sus productos y/o servicios, <br> incluida la newsletter?</p>
+                    <form class="article__form" action="" method="">
+                        <input class="article__input" type="radio" name="confirma" id="si">
+                        <label class="article__label" for="si">Si</label>
+                        <input class="article__input" type="radio" name="confirma" id="no">
+                        <label class="article__label" for="no">No</label>
+                    </form>
+                </article>
+                <article class="article">
+                    <p class="article__p1">Rubio Viajes, S.A. pertenece al grupo de empresas turísticas Rubio´s, <br> ¿te interesa que compartamos sus datos con otras sociedades <br> del grupo para que puedan enviarte comunicaciones comerciales <br> sobre sus productos y/o servicios?</p>
+                    <form class="article__form" action="" method="">
+                        <input class="article__input" type="radio" name="confirma" id="si">
+                        <label class="article__label" for="si">Si</label>
+                        <input class="article__input" type="radio" name="confirma" id="no">
+                        <label class="article__label" for="no">No</label>
+                    </form>
+                </article>
+                <article class="article">
+                    <p class="article__p2">Queremos adaptarnos a ti, ¿estás de acuerdo en que analicemos <br> tus datos, que pueden incluir fuentes externas, para enviarte <br> ofertas personalizadas?</p>
+                    <form class="article__form" action="" method="">
+                        <input class="article__input" type="radio" name="confirma" id="si">
+                        <label class="article__label" for="si">Si</label>
+                        <input class="article__input" type="radio" name="confirma" id="no">
+                        <label class="article__label" for="no">No</label>
+                    </form>
+                </article>
+                <article class="article__link1">
+                    <a class="article__boton" href="../index.html">TERMINADO</a>
+                </article>
+            </aside>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="listas">
+            <div class="listas__div">
+                <p class="listas__p">Sobre nosotros</p>
+                <ul class="ul">
+                    <li class="ul__li"><a class="ul__link" href="#">Quiénes somos</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Tarjeta Rubio Viajes</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Trabaja con nosotros</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Rubio Viajes</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Afiliados</a></li>
+                </ul>
+            </div>
+            <div class="listas__div">
+                <p class="listas__p">Planea tu viaje</p>
+                <ul class="ul">
+                    <li class="ul__li"><a class="ul__link" href="#">Blog de viajes</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Guías de viajes</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Catálogos</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Eventos</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Grupos</a></li>
+                </ul>
+            </div>
+            <div class="listas__div">
+                <p class="listas__p">Información importante</p>
+                <ul class="ul">
+                    <li class="ul__li"><a class="ul__link" href="#">Condiciones Generales</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Politica de privacidad</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Centro de ayuda</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Auto check-in</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Politica de cookies</a></li>
+                </ul>
+            </div>
+            <div class="listas__div">
+                <p class="listas__p">Internacional</p>
+                <ul class="ul">
+                    <li class="ul__li"><a class="ul__link" href="#">Portugal</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Italia</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">Francia</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">México</a></li>
+                    <li class="ul__li"><a class="ul__link" href="#">R. Dominicana</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__2">
+            <p class="footer__p">© Rubio Viajes 2023. Todos los derechos reservados</p>
+            <div>
+                <a href="https://www.youtube.com"> <img class="footer__img" src="../assets/images/brand_youtube_icon_151516.png" alt=""></a>
+                <a href="https://www.facebook.com/"> <img class="footer__img" src="../assets/images/tabler-icon-brand-facebook copia.png" alt=""></a>
+                <a href="https://www.instagram.com"> <img class="footer__img" src="../assets/images/tabler-icon-brand-instagram.png" alt=""></a>
+                <a href="https://twitter.com/i/flow/login"> <img class="footer__img" src="../assets/images/tabler-icon-brand-twitter copia.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

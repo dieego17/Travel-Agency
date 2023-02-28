@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Quick;
+    src: url(../assets/fonts/quicksand_light.ttf);
+}
+@font-face {
+    font-family: Sbold;
+    src: url(../assets/fonts/quicksand_semibold.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav__link--verde{
+    border-bottom: 5px solid #0f7404;
+}
+
+.main{
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 1300px;
+}
+.h1{
+    margin: 0 auto;
+    width: 1200px;
+    font-size: 1.5rem;
+    padding: 40px 0px 20px 0px;
+    color: black;
+    font-family: Sbold;
+    max-width: 1300px;
+}
+
+/* IMAGEN PORTUGAL */
+.section__img{
+    width: 1180px;
+    height: 200px;
+    margin: 10px 0px 40px 0px;
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+
+/* TARJETA CONDICIONES */
+.section{
+    border: 1px solid gray;
+    margin: 20px 0px 20px 0px;
+}
+.section__h2{
+    color: black;
+    padding: 0px 0px 0px 10px;
+    font-family: Sbold;
+}
+.section__p{
+    color: gray;
+    font-size: 0.8rem;
+    padding: 0px 0px 0px 10px;
+    font-family: Quick;
+}
+.boton__condi{
+    text-decoration: none;
+    color: #0f7404;
+}
+.boton__condi:hover{
+    text-decoration: underline;
+}
+.banner__div{
+    margin: 0 auto;
+    width: 1200px;
+}
+.banner__img{
+    width: 1200px;
+    height: 500px;
+}
+
+/* BOTON FIJO */
+.boton{
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.37);
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.boton__img{
+    width: 30px;
+}
+
+/* TARJETAS VUELOS Y HOTEL */
+.img{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img__display{
+    margin: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 21px -10px rgba(0,0,0,0.79);
+}
+.img__div--1{
+    width: 269px;
+    height: 149px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.img__display:hover{
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.79);
+}
+.img__div--2{
+    width: 269px;
+    height: 149px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.img__div--3{
+    width: 269px;
+    height: 149px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.section__img1{
+    margin: 40px 0px 60px 0px;
+}
+.section__h3{
+    color: black;
+    padding: 20px 0px 0px 20px; 
+    font-family: Sbold;
+    font-size: 1.4rem;
+}
+.vuelo__p{
+    font-family: Sbold;
+}
+.quieres__mas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px 40px 50px;
+}
+.quieres__p{
+    color: black;
+    font-family: Sbold;
+}
+.quieres__link{
+    text-decoration: none;
+    color: #343634;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Quick;
+}
+.quieres__link:hover{
+    background-color: black;
+    color: white;
+}
+.vuelo__hotel{
+    color: black;
+    text-decoration: none;
+    border: 1px solid #dfe39e;
+    background-color: #dfe39e;
+    border-radius: 5px;
+    padding: 5px 60px;
+    font-family: Quick;
+}
+.reserva__ya{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+    font-family: Quick;
+    padding: 5px;
+}
+.reserva__boton{
+    text-decoration: none;
+    color: #0f7404;
+    border: 1px solid #0f7404;
+    padding: 5px 10px;
+}
+.reserva__p--verde{
+    color: #0f7404;
+    font-size: 1.3rem;
+}
+.reserva__p{
+    color: black;
+}
+.reserva__boton:hover{
+    color: white;
+    background-color: #0f7404;
+}

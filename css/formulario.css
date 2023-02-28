@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Quick;
+    src: url(../assets/fonts/quicksand_light.ttf);
+}
+@font-face {
+    font-family: Sbold;
+    src: url(../assets/fonts/quicksand_semibold.ttf);
+}
+body{
+    background: linear-gradient(to right, #0f7404, #18cd04);
+}
+.img__logo{
+    width: 200px;
+    border-radius: 5px;
+    margin: 0px 0px 10px;
+}
+.container{
+    margin: 0 auto;
+    width: 1080px;
+    max-width: 1300px;
+}
+.logo{
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+.main{
+    background-color: white;
+    border-radius: 5px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    flex-wrap: wrap;
+}
+.main__h1{
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #636463;
+    font-family: Sbold;
+}
+.main__h2{
+    padding: 20px 10px 0px 10px;
+    font-size: 1.1rem;
+    color: #636463;
+    font-family: Sbold;
+}
+.main__div{
+    padding: 10px 10px;
+}
+.main__div--link{
+    padding: 10px 10px;
+    margin: 10px 0px 30px 0px;
+}
+.main__input{
+    padding: 10px 130px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-family: Quick;
+    outline: 0;
+}
+.main__input:hover{
+    border: 1px solid #0f7404;
+    outline: 0;
+    color: #0f7404;
+    font-family: Sbold;
+}
+.main__input::placeholder{
+    font-family: Quick;
+    color: black;
+}
+.main__input:focus{
+    border: 1px solid #0f7404;
+    font-weight: bold;
+}
+.main__link{
+    padding: 10px 143px;
+    text-align: center;
+    background-color: #0f7404;
+    color: white;
+    background-color: #0f7404;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: Quick;
+}
+.main__link:hover{
+    background-color: #8caa89;
+}
+.main__enlaces{
+    margin: 42px 0px;
+}
+.main__enlaces--grande{
+    margin: 42px 0px 102px 0px;
+}
+.main__enlace{
+    text-decoration: none;
+    color: #0f7404;
+    background-color: white;
+    border: 1px solid #0f7404;
+    border-radius: 4px;
+    padding: 10px 120px;
+    font-family: Quick;
+}
+.main__enlace--grande{
+    text-decoration: none;
+    color: #0f7404;
+    background-color: white;
+    border: 1px solid #0f7404;
+    border-radius: 4px;
+    padding: 10px 100px;
+    font-family: Quick;
+}
+.main__enlace:hover{
+    border: 1px solid #0f7404;
+    background-color: #0f7404;
+    color: white;
+}
+.main__enlace--grande:hover{
+    border: 1px solid #0f7404;
+    background-color: #0f7404;
+    color: white;
+}

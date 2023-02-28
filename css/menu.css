@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Quick;
+    src: url(../assets/fonts/quicksand_light.ttf);
+}
+@font-face {
+    font-family: Sbold;
+    src: url(../assets/fonts/quicksand_semibold.ttf);
+}
+.container{
+    margin: 0 auto;
+}
+/* LOGO */
+.img__logo{
+    width: 130px;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+/* ENCABEZADO */
+.encabezado{
+    background-color: #0f7404;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.encabezado__derch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+.encabezado__link{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-family: Quick;
+}
+.encabezado__link:hover{
+    color: white;
+    text-decoration: underline;
+}
+.encabezado__link--borde{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.encabezado__cuenta{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    font-size: 1.2rem;
+    font-family: Quick;
+}
+.encabezado__cuenta--texto{
+    padding: 5px 30px 5px 0px;
+}
+.encabezado__cuenta:hover{
+    text-decoration: underline;
+}
+.encabezado__cuenta--img{
+    width: 30px;
+    padding: 5px 5px 5px 10px;
+}
+/* MENU */
+.nav__ul{
+    display: flex;
+    justify-content: left;
+    padding: 0px 0px;
+}
+.nav__lista{
+    list-style-type: none;
+}
+.nav__link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #323332;
+    padding: 15px 30px;
+    font-family: Quick;
+}
+.nav__link:hover{
+    color: white;
+    background-color: #0f7404;
+}

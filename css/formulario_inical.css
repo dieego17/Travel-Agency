@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Quick;
+    src: url(../assets/fonts/quicksand_light.ttf);
+}
+/* FORMULARIO DE BÚSQUEDA */
+.container__form{
+    width: 1080px;
+    margin: 0 auto;
+}
+.form{
+    text-align: center;
+    background-color: #05011d;
+    margin: 5px 0px;
+}
+.form__input{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 20px 5px;
+    padding: 10px 20px;
+    font-family: Quick;
+    outline: 0;
+}
+.form__input::placeholder{
+    color: black;
+    font-family: Quick;
+}
+.form__input:hover{
+    border: 1px solid #0f7404;
+    outline: 0;
+}
+.form__input--submit{
+    background-color: #0f7404;
+    border: 1px solid #0f7404;
+    color: white;
+    padding: 10px 20px;
+    font-family: Quick;
+}
+.form__input--submit:hover{
+    background-color: #8caa89;
+    border: 1px solid #8caa89;
+}
+.form__input--date{
+    padding: 10px 30px;
+    color: black;
+    font-family: Quick;
+} 
